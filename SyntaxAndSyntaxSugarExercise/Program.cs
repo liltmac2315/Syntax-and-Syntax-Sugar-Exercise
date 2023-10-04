@@ -13,12 +13,14 @@
             //else
             //{
             //    response = answer + " is greater than or equal to nine";
+
+            var answer = 4;
+            var response = (answer < 9) ? $"{answer} iS less than nine" : $"{answer} greater than or equal to nine";
+
+            Console.WriteLine(response);
         }
 
-        var answer = 4;
-        var response = (answer < 9) ? $"{answer} iS less than nine" : $"{answer} greater than or equal to nine";
 
-        Console.WriteLine(response);
-        }
+    }
 }
-}
+
